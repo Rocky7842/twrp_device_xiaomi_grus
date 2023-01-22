@@ -8,6 +8,7 @@
 include device/xiaomi/sdm710-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/xiaomi/grus
+USES_DEVICE_XIAOMI_GRUS := true
 
 # Kernel
 TARGET_PREBUILT_DTB := $(DEVICE_PATH)/prebuilts/dtb.img

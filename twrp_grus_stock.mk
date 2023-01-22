@@ -10,7 +10,7 @@ PRODUCT_RELEASE_NAME := grus
 $(call inherit-product, device/xiaomi/grus/device.mk)
 
 # Fstab
-MI710_FSTAB_VARIANT := xiaomi-sdm710-devs
+MI710_FSTAB_VARIANT := stock
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := $(PRODUCT_RELEASE_NAME)

@@ -6,7 +6,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),grus)
+ifeq ($(USES_DEVICE_XIAOMI_GRUS),true)
 
 include $(call all-makefiles-under,$(LOCAL_PATH))
 
