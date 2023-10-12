@@ -20,3 +20,4 @@ TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilts/Image.gz
 # TWRP
 TW_H_OFFSET := -80
 TW_Y_OFFSET := 80
+TW_DEFAULT_BRIGHTNESS := 710 # For a max brightness of 2047
