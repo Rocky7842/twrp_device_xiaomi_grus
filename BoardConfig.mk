@@ -10,6 +10,9 @@ include device/xiaomi/sdm710-common/BoardConfigCommon.mk
 DEVICE_PATH := device/xiaomi/grus
 USES_DEVICE_XIAOMI_GRUS := true
 
+# Assert
+TARGET_OTA_ASSERT_DEVICE := grus
+
 # Kernel
 TARGET_PREBUILT_DTB := $(DEVICE_PATH)/prebuilts/dtb.img
 BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)/prebuilts/dtbo.img
